@@ -14,7 +14,7 @@ The scenarios can be written using BDD methodology.
     
     When as actions
     
-    Then as validations
+    Then as validations 
     
     
 On each declared step you can insert the calls defined from service classes -->
