@@ -11,7 +11,7 @@ public class SauceInventoryService extends ActionManager {
     }
 
     public static void verifyAddToCart(){
-        String cartContain = getText(SauceConstants.CART_CONTAIN);
+        String cartContain = getText(SauceConstants.CART_CONTADOR);
         Assert.assertEquals(cartContain, "1", "no dice 1 el carrito");
     }
 
@@ -20,7 +20,7 @@ public class SauceInventoryService extends ActionManager {
     }
 
     public static void verifyRemoveToCart(){
-        waitInvisibility(SauceConstants.CART_CONTAIN);
+        waitInvisibility(SauceConstants.CART_CONTADOR);
     }
 
 

@@ -17,7 +17,7 @@ public class SauceAuthService extends ActionManager {
     }
 
     public static void enterPasswordCriteria(String text) {
-        setInput(SauceConstants.INPUT_PASSWORD_LOGIN_XPATH, text);
+        setInput(SauceConstants.INPUT_PWD_LOGIN_XPATH, text);
     }
 
     public static void clickLoginButton() {

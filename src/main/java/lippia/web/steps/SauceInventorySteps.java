@@ -14,12 +14,12 @@ public class SauceInventorySteps extends PageSteps {
         SauceInventoryService.verifyRemoveToCart();
     }
 
-    @Given("El carrito tiene el producto \"Sauce Labs Backpack\"")
+    @Given("El carrito tiene el producto \"Sauce Labs Bolt T-Shirt\"")
     public void verifyCartWhitSauceProduct(){
         SauceInventoryService.clickAddToCartButton();
     }
 
-    @When("El cliente hace click en el boton \"Add to cart\" para el producto \"Sauce Labs Backpack\"")
+    @When("El cliente hace click en el boton \"Add to cart\" para el producto \"Sauce Labs Bolt T-Shirt\"")
     public void clickButtonAddToCart() {
         SauceInventoryService.clickAddToCartButton();
     }
@@ -30,7 +30,7 @@ public class SauceInventorySteps extends PageSteps {
     }
 
 
-    @When("El cliente hace click en el boton \"remove\" del producto \"Sauce Labs Backpack\"")
+    @When("El cliente hace click en el boton \"remove\" del producto \"Sauce Labs Bolt T-Shirt\"")
     public void clickRemoveToCart() {
         SauceInventoryService.clickRemoveToCart();
     }
